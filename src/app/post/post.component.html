@@ -1,0 +1,11 @@
+<h2>Mon post</h2>
+
+<li>
+    <h4> {{titrePost}}</h4>
+    <p>{{contenuPost}}</p>
+    <button id="like" type="button" (click)="onClique()">J'aime</button>
+    <button id="nolike" type="button" (click)="onCliqueNo()">Je n'aime pas</button>
+    <br><textarea [(ngModel)]="text"></textarea>
+    <p>Commantaire : {{ text }}</p>
+        
+</li>
